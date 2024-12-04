@@ -1,1 +1,13 @@
-// code your solution here
+// array-find-method
+
+// superbowlWin function in index.js
+function superbowlWin(record) {
+    
+    const win = record.find(game => game.result === "W");
+    
+    return win ? win.year : undefined;
+}
+
+
+
+
